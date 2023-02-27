@@ -1,0 +1,178 @@
+body {
+  background-color: rgba(255, 255, 255, 0.912);
+  color: rgb(13, 11, 11);
+  /*font-size: 16px;
+  font-size: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;*/
+
+  font: normal 16px "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+/*a:visited {
+  color: gray; если на ссылку заходили. то делает ее серого цвета
+}*/
+.avatar {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+  color: rgb(95, 5, 5);
+  margin: 0;
+  font-style: italic;
+  /*text-decoration: line-through;*/
+}
+.container {
+  max-width: 75%;
+  margin: auto;
+}
+
+.bg-yellow {
+  background: rgb(232, 222, 218);
+}
+.bg-green {
+  background: rgb(232, 222, 218);
+}
+.bg-red {
+  background: rgb(232, 222, 218);
+}
+.bg-sky {
+  background: rgb(232, 222, 218);
+}
+.card {
+  padding: 10px 20px;
+  /*background-color: red;*/
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.list {
+  padding: 0px 15px;
+  /* list-style: none;*/
+}
+.list li {
+  color: #06225c;
+  font-style: italic;
+}
+.table {
+  width: 100%;
+}
+.table td:nth-child(1) {
+  color: white;
+  font-style: italic;
+}
+.link-lu {
+  list-style: none;
+  padding: 0;
+}
+.link-lu li {
+  /*margin-bottom: 10px;*/
+  padding-bottom: 5px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  outline: none;
+  font-family: inherit;
+}
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  /*border: none;*/
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+/*Это мы пишем что элемент form-group в классе row занимает 50%*/
+.row > .form-group {
+  width: 50%;
+}
+
+/*Это обращение к первому элементу в сласе row*/
+/*У него справа отступ 20 рх*/
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  color: #111;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 15px;
+}
+
+/*.btn:hover {
+  opacity: 0.9;
+}*/
+
+.box input {
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  bottom: 50px;
+  right: 50px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  position: fixed;
+}
+.box input:hover {
+  /* text-decoration: underline;*/
+  opacity: 0.5;
+  color: rgb(32, 14, 153);
+}
+/*.menu {
+  width: 100%;
+  height: 50px;
+  background: yellow;
+  top: 0;
+  /*right: 50px;*/
+/* border: 3px solid blue;
+  position: fixed;
+}*/
